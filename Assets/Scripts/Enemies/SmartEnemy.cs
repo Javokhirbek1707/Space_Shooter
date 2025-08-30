@@ -63,7 +63,7 @@ public class SmartEnemy : MonoBehaviour
 
     private void FireLaser()
     {
-        _fireRate = Random.Range(2f, 4f);
+        _fireRate = Random.Range(3f, 7f);
         _canFire = Time.time + _fireRate;
         GameObject enemyLaser = Instantiate(_laserPrefab, transform.position, Quaternion.identity);
         Laser[] lasers = enemyLaser.GetComponentsInChildren<Laser>();

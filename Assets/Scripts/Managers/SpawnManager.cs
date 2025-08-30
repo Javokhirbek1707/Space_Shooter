@@ -117,7 +117,7 @@ public class SpawnManager : MonoBehaviour
         if (_spawnBoss == true)
         {
             Vector3 posToSpawn = new Vector3(0, 9, 0);
-            GameObject boss = Instantiate(_enemy[4], posToSpawn, Quaternion.identity);
+            GameObject boss = Instantiate(_enemy[5], posToSpawn, Quaternion.identity);
             boss.transform.parent = _enemyContainer.transform;
         }
     }
