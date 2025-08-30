@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: c172c6a53c165e142ab153f96a7bbc5b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _laserPrefabs: {fileID: 920723423632700602, guid: a950efda0cb21ba488e9a123a057086a,
+      type: 3}
+  - _triplelaserPrefabs: {fileID: 2845456443315675328, guid: 76cf915d03306c54aa36799e5991e0f1,
+      type: 3}
+  - _sheildVizualizer: {instanceID: 0}
+  - _rightDamage: {instanceID: 0}
+  - _leftDamage: {instanceID: 0}
+  - _laserSound: {fileID: 8300000, guid: 75676f361bdfeaf41a46623e95df3dbc, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
