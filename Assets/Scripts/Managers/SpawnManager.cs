@@ -32,7 +32,7 @@ public class SpawnManager : MonoBehaviour
 
         while (_stopSpawning == false && _spawnWaveOne == true)
         {
-            int randomEnemy = Random.Range(0, 6);
+            int randomEnemy = Random.Range(0, 5);
             Vector3 posToSpawn= new Vector3(Random.Range(-8f,8f),7,0);
             GameObject newEnemy = Instantiate(_enemy[randomEnemy], posToSpawn,Quaternion.identity);
             newEnemy.transform.parent = _enemyContainer.transform;
@@ -41,7 +41,7 @@ public class SpawnManager : MonoBehaviour
 
         while (_stopSpawning == false && _spawnWaveTwo == true)
         {
-            int randomEnemy = Random.Range(0,6);
+            int randomEnemy = Random.Range(0,5);
             Vector3 posToSpawn = new Vector3(Random.Range(-8f, 8f), 7, 0);
             GameObject newEnemy = Instantiate(_enemy[randomEnemy], posToSpawn, Quaternion.identity);
             newEnemy.transform.parent = _enemyContainer.transform;
@@ -50,7 +50,7 @@ public class SpawnManager : MonoBehaviour
 
         while (_stopSpawning == false && _spawnWaveThree == true)
         {
-            int randomEnemy = Random.Range(0,6);
+            int randomEnemy = Random.Range(0,5);
             Vector3 posToSpawn = new Vector3(Random.Range(-8f, 8f), 7, 0);
             GameObject newEnemy = Instantiate(_enemy[randomEnemy], posToSpawn, Quaternion.identity);
             newEnemy.transform.parent = _enemyContainer.transform;
